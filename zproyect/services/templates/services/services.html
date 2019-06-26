@@ -1,0 +1,106 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{%block title%}Servicios{% endblock%}
+
+{% block content %}
+
+
+{{services}}
+<h1>prueba de select</h1>
+<ul>
+  {% for services in services reversed %}
+
+  <li>{{services.title}}</li>
+  <li>{{services.subtitle}}</li>
+  {% endfor %}
+</ul>
+<hr>
+<br>
+<br>
+
+
+<!-- crossfit Exercises -->
+<div class="site-section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <h2 class="site-section-heading text-center">Servicios</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 text-center mb-4">
+        <div class="border p-4 text-with-icon">
+          <img src="{% static 'core/icons/001.png' %}" />
+          <h2 class="h5">Masajes</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
+          <!--<p><a href="#">Learn More</a></p>-->
+        </div>
+      </div>
+      <div class="col-md-4 text-center mb-4">
+        <div class="border p-4 text-with-icon">
+          <img src="{% static 'core/icons/002.png' %}" />
+          <h2 class="h5">Rituales</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
+          <!--<p><a href="#">Learn More</a></p>-->
+        </div>
+      </div>
+      <div class="col-md-4 text-center mb-4">
+        <div class="border p-4 text-with-icon">
+          <img src="{% static 'core/icons/003.png' %}" />
+          <h2 class="h5">Cremas</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
+          <!--<p><a href="#">Learn More</a></p>-->
+        </div>
+      </div>
+      <div class="col-md-4 text-center mb-4">
+        <div class="border p-4 text-with-icon">
+          <img src="{% static 'core/icons/004.png' %}" />
+          <h2 class="h5">Faciales</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
+          <!--<p><a href="#">Learn More</a></p>-->
+        </div>
+      </div>
+      <div class="col-md-4 text-center mb-4">
+        <div class="border p-4 text-with-icon">
+          <img src="{% static 'core/icons/005.png' %}" />
+          <h2 class="h5">Lipo sin cirugia</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
+          <!--<p><a href="#">Learn More</a></p>-->
+        </div>
+      </div>
+      <div class="col-md-4 text-center mb-4">
+        <div class="border p-4 text-with-icon">
+          <img src="{% static 'core/icons/006.png' %}" />
+          <h2 class="h5">Lipimieza profunda</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
+          <!--<p><a href="#">Learn More</a></p>-->
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+</div>
+<!-- end crossfit Exercises -->
+
+
+
+
+{% endblock %}
+
+{% block legales %}
+<p align="center">
+      <small> Icons made by
+        [https://www.flaticon.com/authors/pixelmeetup],
+        [https://www.freepik.com/],
+        [https://www.flaticon.com/authors/good-ware],
+        [https://roundicons.com/],
+        [https://www.flaticon.com/authors/pixel-perfect]
+        from www.flaticon.com</small>
+</p>
+{% endblock %}

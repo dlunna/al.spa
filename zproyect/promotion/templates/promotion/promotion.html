@@ -1,0 +1,95 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{%block title%}Promociones{% endblock%}
+
+{% block content %}
+
+<!--  Para ver los datos contenidos en la variable,
+ para debugear
+ -->
+<!-- es una consulta {{projects}} como select * from
+{{projects}}
+<ul>
+  {% for project in projects %}
+  <li><img src="{{project.image.url}}"></li>
+  <li>{{project.title}}</li>
+  <li>{{project.description}}</li>
+  {% endfor %}
+</ul>
+<hr>
+<br>
+<br>
+-->
+
+<!-- Popular program -->
+<div class="site-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="site-section-heading text-center">Promociones</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 block-13 nav-direction-white">
+        <div class="nonloop-block-13 owl-carousel">
+
+          {% for project in projects %}
+            <div class="media-image">
+              {% if project.image %}
+              <img src="{{project.image.url}}" alt="Image" class="img-fluid">
+              {% endif %}
+              <div class="media-image-body">
+                <h2>{{project.title}}</h2>
+                <p>{{project.description}}</p>
+              </div>
+            </div>
+
+
+
+<!--
+              <img src="{{project.image.url}}" alt="Image" class="img-fluid">
+              <h2>{{project.title}}</h2>
+              <p>{{project.description}}</p>
+              {% if project.link %}
+                <p><a href="{{project.link}}" class="btn btn-primary text-white px-4"><span class="caption">Learn More</span></a></p>
+              {% endif %}
+              <a href="http://www.alamandra.tk">alamandra</a>-->
+
+
+          <!-- Pruebas para agregar una URL
+            <div class="media-image">
+                <img src="http://localhost:8000/static/core/images/uby-yanes-1314421-unsplash.jpg" alt="Image" class="img-fluid">
+                <div class="media-image-body">
+                  <h2>{{project.title}}</h2>
+                  <p>{{project.description}}</p>
+
+                  {% if project.link %}
+                    <p><a href="{{project.link}}" class="btn btn-primary text-white px-4"><span class="caption">Learn More</span></a></p>
+                  {% endif %}
+
+                </div>
+            </div>
+            -->
+
+
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</div>
+<!-- Fin Popular program -->
+
+
+
+
+
+{% endblock %}
