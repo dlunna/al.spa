@@ -1,0 +1,5 @@
+Django==2.2.1  
+django-ckeditor==5.7.1  
+mysql-connector-python==8.0.16 
+Pillow==6.0.0  
+
