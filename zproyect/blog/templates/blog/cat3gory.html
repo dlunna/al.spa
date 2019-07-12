@@ -1,0 +1,26 @@
+Categorias de morty
+<hr>
+
+    {%for allcategoryvar in allcategory %}
+        <a href="{%url 'cat3gory' allcategoryvar.id %}">
+            {{allcategoryvar.name}}
+        </a>
+        {%if not forloop.last %},{% endif %}
+    {% endfor %}
+
+    {% for post in category.get_post.all %}
+        <ul>
+            <li>{{post.published|date:"SHORT_DATE_FORMAT"}}</li>
+            <li>{{post.title}}</li>
+            <!--<li>{{post.content|linebreaks}}</li> para hacer saltos de linea -->
+            <li>{{post.content}}</li>
+            <li>{{post.author}}</li>
+            <!--<li>{{post.categories.all}}</li>-->
+            {% for category in post.categories.all %}
+                <a href="{% url 'cat3gory' category.id %}">
+                    {{category.name}}
+                </a>
+                {%if not forloop.last %},{% endif %}
+            {% endfor %}
+        </ul>
+    {% endfor%}

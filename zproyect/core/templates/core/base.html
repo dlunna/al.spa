@@ -67,8 +67,8 @@ bootstrap en la carpeta static
                       <li {% if request.path == "/promociones/" %}class="active"{% endif %}> <a href="{% url 'promotion' %}">Promociones</a> </li>
                       <li {% if request.path == "/spa/acercade/" %}class="active"{% endif %}> <a href="{% url 'about' %}">Acerca de</a> </li>
                       <li {% if request.path == "/servicios/" %}class="active"{% endif %}> <a href="{% url 'services_home' %}">Servicios</a> </li>
-                      <li {% if request.path == "/spa/blog/" %}class="active"{% endif %}> <a href="{% url 'blog' %}">Blog</a> </li>
-                      <li {% if request.path == "/spa/contacto/" %}class="active"{% endif %}> <a href="{% url 'contact' %}">Contacto</a> </li>
+                      <li {% if request.path|slice:":6" == "/blog/" %}class="active"{% endif %}> <a href="{% url 'blog' %}">Blog</a> </li>
+                      <li {% if request.path == "/contacto/" %}class="active"{% endif %}> <a href="{% url 'contact' %}">Contacto</a> </li>
 
                       {% if request.path == "/" %}
                       <li> <a href="admin/">L</a> </li>
@@ -92,10 +92,10 @@ bootstrap en la carpeta static
     <hr />{% endif %}
 
 
-
+<!--
     {{request.path}}
     Si dejamos esta linea tal cual nos da la ruta en la que nos encontramos
-
+-->
 
     {% block legales %} {% endblock %}
 
@@ -148,7 +148,18 @@ bootstrap en la carpeta static
             </div>
             <div class="col-md-12">
               <p>
-                <a href="https://www.facebook.com/Lovely-Spa-Beauty-727362944265446/" class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>
+                {% if facebook_general %}
+                  <a href="{{ facebook_general }}" class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>
+                {% endif %}
+                {% if twitter_general %}
+                  <a href="{{ twitter_general }}" class="pb-2 pr-2 pl-0"><span class="icon-twitter"></span></a>
+                {% endif %}
+                {% if instagram_general %}
+                  <a href="{{ instagram_general }}" class="pb-2 pr-2 pl-0"><span class="icon-instagram"></span></a>
+                {% endif %}
+                {% if youtube_general %}
+                  <a href="{{ youtube_general }}" class="pb-2 pr-2 pl-0"><span class="icon-youtube"></span></a>
+                {% endif %}
                 <!--
                 <a href="#" class="p-2"><span class="icon-twitter"></span></a>
                 <a href="#" class="p-2"><span class="icon-instagram"></span></a>
@@ -167,7 +178,17 @@ bootstrap en la carpeta static
                 document.write(new Date().getFullYear());
               </script> All Rights Reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
             </p>
+            <p>
+              {% load pages_extras %}
+              {% get_page_list as page_list %}
+              {% for page in page_list %}
+                <a href="{% url 'page' page.id page.title|slugify %}">{{page.title}}</a>
+                {% if not forloop.last %} | {% endif %}
+              {% endfor %}
+            </p>
+
           </div>
 
         </div>

@@ -13,8 +13,8 @@ urlpatterns = [
     path('', core_views.home, name="home"),
     path('acercade/', core_views.about, name="about"),
     #path('servicios/', core_views.services, name="services"),
-    path('blog/', core_views.blog, name="blog"),
-    path('contacto/', core_views.contact, name="contact"),
+
+    #path('contacto/', core_views.contact, name="contact"),
 
 
     #Codigo para pruebas de backend

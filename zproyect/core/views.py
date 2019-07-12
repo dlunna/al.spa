@@ -37,9 +37,6 @@ def services(request):
 def blog(request):
     return render(request, "core/cokie.html")
 
-def contact(request):
-    return render(request, "core/contact.html")
-
 
 # --------------------------------------------
 # Codigo para prueba de backend

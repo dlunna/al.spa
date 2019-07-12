@@ -24,6 +24,8 @@ from core import views as core_views
 # el archivo setting en la memoria
 from django.conf import settings
 
+from cuba.urls import cubas_patterns
+
 urlpatterns = [
     # Importando la APP core
     # ojo con poner la diagonal al final
@@ -31,11 +33,20 @@ urlpatterns = [
 
     path('spa/', include('core.urls')),
 
+    path('blog/', include('blog.urls')),
+
     #usamos la variable name para los tag URL en html
     path('promociones/', promotion_views.promotion, name="promotion"),
 
     path('servicios/', include('services.urls')),
     #path('servicios/', services_views.services, name="service"),
+
+    path('pages/', include('pages.urls')),
+
+    path('contacto/', include('contact.urls')),
+
+    #path('cuba/', include('cuba.urls')),
+    path('cubas/', include(cubas_patterns)),
 
     # Path del administrador
     path('admin/', admin.site.urls),

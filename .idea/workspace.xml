@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41a78c05-5a8c-4169-8ab3-ad6d826ef0cc" name="Default Changelist" comment="" />
+    <list default="true" id="41a78c05-5a8c-4169-8ab3-ad6d826ef0cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/templates/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/core/templates/core/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/services/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/services/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/services/templates/services/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/services/templates/services/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/services/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/services/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/zproyect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/zproyect/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/zproyect/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/zproyect/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +39,12 @@
       <find>portfolio</find>
       <find>portfo</find>
       <find>strip</find>
+      <find>url</find>
+      <find>categories</find>
+      <find>aviso</find>
+      <find>extras</find>
+      <find>contacto</find>
+      <find>email</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -34,27 +53,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zproyect/core/teplates/core/cokie.html" />
-        <option value="$PROJECT_DIR$/zproyect/core/templates/core/home.html" />
-        <option value="$PROJECT_DIR$/zproyect/promociones/admin.py" />
-        <option value="$PROJECT_DIR$/zproyect/promociones/models.py" />
-        <option value="$PROJECT_DIR$/zproyect/promociones/apps.py" />
         <option value="$PROJECT_DIR$/zproyect/promotion/apps.py" />
         <option value="$PROJECT_DIR$/zproyect/promotion/admin.py" />
         <option value="$PROJECT_DIR$/zproyect/promotion/views.py" />
         <option value="$PROJECT_DIR$/zproyect/promotion/templates/promotion/promotion.html" />
         <option value="$PROJECT_DIR$/zproyect/promotion/models.py" />
-        <option value="$PROJECT_DIR$/zproyect/core/views.py" />
-        <option value="$PROJECT_DIR$/zproyect/services/models.py" />
         <option value="$PROJECT_DIR$/zproyect/services/admin.py" />
         <option value="$PROJECT_DIR$/zproyect/services/apps.py" />
-        <option value="$PROJECT_DIR$/zproyect/zproyect/settings.py" />
-        <option value="$PROJECT_DIR$/zproyect/core/urls.py" />
         <option value="$PROJECT_DIR$/zproyect/services/urls.py" />
-        <option value="$PROJECT_DIR$/zproyect/zproyect/urls.py" />
-        <option value="$PROJECT_DIR$/zproyect/core/templates/core/base.html" />
         <option value="$PROJECT_DIR$/zproyect/services/views.py" />
+        <option value="$PROJECT_DIR$/zproyect/services/models.py" />
         <option value="$PROJECT_DIR$/zproyect/services/templates/services/services.html" />
+        <option value="$PROJECT_DIR$/zproyect/blog/admin.py" />
+        <option value="$PROJECT_DIR$/zproyect/blog/template/blog/morty.html" />
+        <option value="$PROJECT_DIR$/zproyect/blog/templates/blog/morty.html" />
+        <option value="$PROJECT_DIR$/zproyect/blog/models.py" />
+        <option value="$PROJECT_DIR$/zproyect/blog/templates/blog/category.html" />
+        <option value="$PROJECT_DIR$/zproyect/blog/templates/blog/cat3gory.html" />
+        <option value="$PROJECT_DIR$/zproyect/blog/views.py" />
+        <option value="$PROJECT_DIR$/zproyect/blog/templates/blog/categori.html" />
+        <option value="$PROJECT_DIR$/zproyect/blog/urls.py" />
+        <option value="$PROJECT_DIR$/zproyect/social/models.py" />
+        <option value="$PROJECT_DIR$/zproyect/social/apps.py" />
+        <option value="$PROJECT_DIR$/zproyect/social/processors.py" />
+        <option value="$PROJECT_DIR$/zproyect/pages/apps.py" />
+        <option value="$PROJECT_DIR$/zproyect/pages/templatetags/__init__.py" />
+        <option value="$PROJECT_DIR$/zproyect/pages/templatetags/pages_extras.py" />
+        <option value="$PROJECT_DIR$/zproyect/pages/admin.py" />
+        <option value="$PROJECT_DIR$/zproyect/pages/models.py" />
+        <option value="$PROJECT_DIR$/zproyect/pages/templates/pages/aviso.html" />
+        <option value="$PROJECT_DIR$/zproyect/contact/urls.py" />
+        <option value="$PROJECT_DIR$/zproyect/core/templates/core/base.html" />
+        <option value="$PROJECT_DIR$/zproyect/core/views.py" />
+        <option value="$PROJECT_DIR$/zproyect/core/urls.py" />
+        <option value="$PROJECT_DIR$/zproyect/contact/templates/contact/contact.html" />
+        <option value="$PROJECT_DIR$/zproyect/contact/forms.py" />
+        <option value="$PROJECT_DIR$/zproyect/contact/views.py" />
+        <option value="$PROJECT_DIR$/zproyect/social/admin.py" />
+        <option value="$PROJECT_DIR$/zproyect/pages/views.py" />
+        <option value="$PROJECT_DIR$/zproyect/pages/templates/pages/avisos.html" />
+        <option value="$PROJECT_DIR$/zproyect/pages/urls.py" />
+        <option value="$PROJECT_DIR$/zproyect/zproyect/settings.py" />
+        <option value="$PROJECT_DIR$/zproyect/cuba/models.py" />
+        <option value="$PROJECT_DIR$/zproyect/cuba/apps.py" />
+        <option value="$PROJECT_DIR$/zproyect/cuba/admin.py" />
+        <option value="$PROJECT_DIR$/zproyect/cuba/templates/cuba/cubas.html" />
+        <option value="$PROJECT_DIR$/zproyect/cuba/templates/cuba/cuba_detail.html" />
+        <option value="$PROJECT_DIR$/zproyect/cuba/views.py" />
+        <option value="$PROJECT_DIR$/zproyect/cuba/urls.py" />
+        <option value="$PROJECT_DIR$/zproyect/cuba/templates/cuba/includes/cuba_menu.html" />
+        <option value="$PROJECT_DIR$/zproyect/cuba/templates/cuba/cuba_list.html" />
+        <option value="$PROJECT_DIR$/zproyect/zproyect/urls.py" />
       </list>
     </option>
   </component>
@@ -71,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,28 +136,31 @@
               <item name="al.spa" type="b2602c69:ProjectViewProjectNode" />
               <item name="al.spa" type="462c0819:PsiDirectoryNode" />
               <item name="zproyect" type="462c0819:PsiDirectoryNode" />
-              <item name="promotion" type="462c0819:PsiDirectoryNode" />
+              <item name="cuba" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="al.spa" type="b2602c69:ProjectViewProjectNode" />
               <item name="al.spa" type="462c0819:PsiDirectoryNode" />
               <item name="zproyect" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al.spa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al.spa" type="462c0819:PsiDirectoryNode" />
-              <item name="zproyect" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="cuba" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="al.spa" type="b2602c69:ProjectViewProjectNode" />
               <item name="al.spa" type="462c0819:PsiDirectoryNode" />
               <item name="zproyect" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="cuba" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="cuba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="al.spa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="al.spa" type="462c0819:PsiDirectoryNode" />
+              <item name="zproyect" type="462c0819:PsiDirectoryNode" />
+              <item name="cuba" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="cuba" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="al.spa" type="b2602c69:ProjectViewProjectNode" />
@@ -121,12 +172,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zproyect/contact" />
+      <recent name="$PROJECT_DIR$/zproyect/pages" />
+      <recent name="$PROJECT_DIR$/zproyect/blog/templates/blog" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,7 +215,7 @@
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24064925" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16513762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -167,15 +226,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21756226" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36566186" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32896462" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21947777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16513762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -186,138 +245,43 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23066841" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18610747" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32896462" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zproyect/core/teplates/core/cokie.html" />
-    <entry file="file://$PROJECT_DIR$/zproyect/core/templates/core/about.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/core/templates/core/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/core/templates/core/services.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/promociones/models.py" />
-    <entry file="file://$PROJECT_DIR$/zproyect/promociones/apps.py" />
-    <entry file="file://$PROJECT_DIR$/zproyect/promociones/admin.py" />
-    <entry file="file://$PROJECT_DIR$/zproyect/promotion/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/promotion/templates/promotion/portfolio.html.bk">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/promotion/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/zproyect/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/services/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/services/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/zproyect/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/core/templates/core/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="68" column="121" selection-start-line="68" selection-start-column="121" selection-end-line="68" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/services/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/core/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zproyect/services/templates/services/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="1750">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zproyect/promotion/templates/promotion/promotion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="11" selection-start-line="11" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="192">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="45" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/services/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/core/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/zproyect/services/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -326,7 +290,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zproyect/promotion/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="240">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -334,17 +298,361 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/services/models.py">
+    <entry file="file://$PROJECT_DIR$/zproyect/blog/template/blog/morty.html" />
+    <entry file="file://$PROJECT_DIR$/zproyect/blog/templates/blog/morty.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="286">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/blog/templates/blog/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/blog/templates/blog/cat3gory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/blog/templates/blog/categori.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/promotion/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/social/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/pages/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/services/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/pages/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/social/processors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/pages/templatetags/pages_extras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zproyect/promotion/models.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/promotion/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <caret selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/pages/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/pages/templates/pages/aviso.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/pages/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/core/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/contact/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/core/templates/core/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/contact/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/contact/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/contact/templates/contact/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="77" column="81" selection-start-line="77" selection-start-column="81" selection-end-line="77" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" column="101" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="101" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/social/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/social/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/pages/templates/pages/avisos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/pages/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/pages/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/cuba/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/cuba/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/cuba/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/zproyect/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/cuba/templates/cuba/cubas.html" />
+    <entry file="file://$PROJECT_DIR$/zproyect/cuba/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/zproyect/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/cuba/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/cuba/templates/cuba/cuba_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/cuba/templates/cuba/includes/cuba_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/cuba/templates/cuba/cuba_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/cuba/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

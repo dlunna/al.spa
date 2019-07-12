@@ -45,6 +45,11 @@ INSTALLED_APPS = [
     'promotion.apps.PromotionConfig',
     'blog',
     'services.apps.ServicesConfig',
+    'social.apps.SocialConfig',
+    'pages.apps.PagesConfig',
+    'ckeditor',
+    'contact',
+    'cuba',
 ]
 
 MIDDLEWARE = [
@@ -70,6 +75,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'social.processors.ctx_dict',
             ],
         },
     },
@@ -117,7 +123,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'es'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Mexico_City'
 
 USE_I18N = True
 
@@ -137,3 +143,22 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 # en donde tiene que ir a buscar el directorio media
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+# Ckeditor
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+            ['Link', 'Unlink'],
+            ['RemoveFormat', 'Source']
+        ]
+    }
+}
+
+# Email config
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = 'bfa56e53a99138'
+EMAIL_HOST_PASSWORD = 'b5f733131373d1'
+EMAIL_PORT = '2525'

@@ -1,0 +1,12 @@
+{%for x in pages %}
+{{ x.title }}
+{% endfor %}
+
+<!--
+{{page.title}}
+{{page.content|safe}}
+<h2>{{user}}</h2>
+{% if user.is_authenticated %}
+    <a href="{% url 'admin:pages_page_change' page.id %}">Editar</a>
+{% endif %}
+-->
