@@ -25,7 +25,7 @@ SECRET_KEY = 'fyncqn6xrpsocc%s$!su5--&x2&e2y5i!v=cl+p^6(_1-tws1+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['lovelyspa.tk','lovelyspa.pythonanywhere.com','localhost','127.0.0.1']
 
 
 # Application definition
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'ckeditor',
     'contact',
     'cuba',
+    'clients',
 ]
 
 MIDDLEWARE = [
@@ -89,7 +90,7 @@ WSGI_APPLICATION = 'zproyect.wsgi.application'
 
 DATABASES = {
     'default': {
-        'NAME': 'al.spa',
+        'NAME': 'alspadb',
         'ENGINE': 'mysql.connector.django',
         'USER': 'alspa',
         'PASSWORD': '$ba51P15cu5',

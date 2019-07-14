@@ -27,5 +27,6 @@ class PostAdmin(admin.ModelAdmin):
 
 # Esto hace que funcione en el panel de administrador
 # Se jala la clase Project del modelo y luego se pasa ProjectAdmin como extendido
-admin.site.register(Category, CategoryAdmin)
-admin.site.register(Post, PostAdmin)
+
+#admin.site.register(Category, CategoryAdmin)
+#admin.site.register(Post, PostAdmin)

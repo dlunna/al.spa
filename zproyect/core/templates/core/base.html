@@ -67,7 +67,7 @@ bootstrap en la carpeta static
                       <li {% if request.path == "/promociones/" %}class="active"{% endif %}> <a href="{% url 'promotion' %}">Promociones</a> </li>
                       <li {% if request.path == "/spa/acercade/" %}class="active"{% endif %}> <a href="{% url 'about' %}">Acerca de</a> </li>
                       <li {% if request.path == "/servicios/" %}class="active"{% endif %}> <a href="{% url 'services_home' %}">Servicios</a> </li>
-                      <li {% if request.path|slice:":6" == "/blog/" %}class="active"{% endif %}> <a href="{% url 'blog' %}">Blog</a> </li>
+                      <!--<li {% if request.path|slice:":6" == "/blog/" %}class="active"{% endif %}> <a href="{% url 'blog' %}">Blog</a> </li>-->
                       <li {% if request.path == "/contacto/" %}class="active"{% endif %}> <a href="{% url 'contact' %}">Contacto</a> </li>
 
                       {% if request.path == "/" %}
