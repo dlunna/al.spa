@@ -88,6 +88,7 @@ WSGI_APPLICATION = 'zproyect.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+#Configuración en modo prueba
 DATABASES = {
     'default': {
         'NAME': 'alspadb',
@@ -99,6 +100,19 @@ DATABASES = {
       },
     }
 }
+
+#Configuración en py any where
+#
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'dlunna$alspa',
+#        'USER': 'dlunna',
+#        'PASSWORD': '$ba51P15cu5',
+#        'HOST': 'lovelyspa.mysql.pythonanywhere-services.com',
+#    }
+#}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators

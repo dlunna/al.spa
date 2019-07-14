@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41a78c05-5a8c-4169-8ab3-ad6d826ef0cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/al.spa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/al.spa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/contact/templates/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/contact/templates/contact/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/core/templates/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/core/templates/core/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/cuba/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/cuba/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/Cifrado_Cesar_Python.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/D8stupeWwAUL84j.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/D8tU40xVsAMfX1X.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/image1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/media/services/one-punch-man-road-hero_0.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/media/services/ram_s3_image6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/promotion/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/promotion/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/promotion/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/promotion/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zproyect/zproyect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/zproyect/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +11,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zproyect/zproyect/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="108" column="25" lean-forward="true" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,17 +98,17 @@
         <option value="$PROJECT_DIR$/zproyect/zproyect/urls.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/zproyect/clients/admin.py" />
-        <option value="$PROJECT_DIR$/zproyect/zproyect/settings.py" />
         <option value="$PROJECT_DIR$/zproyect/cuba/admin.py" />
         <option value="$PROJECT_DIR$/zproyect/blog/admin.py" />
         <option value="$PROJECT_DIR$/zproyect/core/templates/core/base.html" />
         <option value="$PROJECT_DIR$/zproyect/clients/models.py" />
         <option value="$PROJECT_DIR$/zproyect/promotion/models.py" />
         <option value="$PROJECT_DIR$/zproyect/contact/templates/contact/contact.html" />
+        <option value="$PROJECT_DIR$/zproyect/zproyect/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="27" />
     <option name="width" value="683" />
     <option name="height" value="708" />
@@ -165,6 +160,12 @@
               <item name="zproyect" type="462c0819:PsiDirectoryNode" />
               <item name="social" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="al.spa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="al.spa" type="462c0819:PsiDirectoryNode" />
+              <item name="zproyect" type="462c0819:PsiDirectoryNode" />
+              <item name="zproyect" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,8 +214,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="708" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17727272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18030304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -567,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/zproyect/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zproyect/services/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -645,6 +640,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="151" column="34" lean-forward="true" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/zproyect/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="108" column="25" lean-forward="true" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
         </state>
       </provider>
     </entry>
