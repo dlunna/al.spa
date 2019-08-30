@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     'ckeditor',
     'contact',
     'cuba',
-    'clients',
+    'clients.apps.ClientsConfig',
+    'casefile.apps.CasefileConfig',
 ]
 
 MIDDLEWARE = [
@@ -91,7 +92,7 @@ WSGI_APPLICATION = 'zproyect.wsgi.application'
 #Configuración en modo prueba
 DATABASES = {
     'default': {
-        'NAME': 'alspadb',
+        'NAME': 'al.spa',
         'ENGINE': 'mysql.connector.django',
         'USER': 'alspa',
         'PASSWORD': '$ba51P15cu5',
@@ -160,6 +161,11 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 # Ckeditor
+# Configuracion personalizada para el ckeditor
+# pip install django-ckeditor
+# Añarir en el modelo
+# habilitar en installed app en settings
+# en la vista en vez de linebraks poner safe
 CKEDITOR_CONFIGS = {
     'default': {
         'toolbar': 'Custom',

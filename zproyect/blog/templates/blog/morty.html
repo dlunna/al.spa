@@ -18,3 +18,24 @@ Morty
     </ul>
 
     {% endfor%}
+
+    {% for post in posts%}
+            <ul>
+                <!--Short date format es un modificador para poner
+                 en vez de 5 ago 2019 poner 5/8/2019-->
+                <li>{{post.published|date:"SHORT_DATE_FORMAT"}}</li>
+                <li>{{post.title}}</li>
+                <!-- Para que nos respete los saltos de linea
+                en el codigo-->
+                <li>{{post.content|linebreaks}}</li> para hacer saltos de linea -->
+                <li>{{post.content}}</li>
+                <li>{{post.author}}</li>
+                <!-- esto muestra todas las categorias -->
+                <!--<li>{{post.categories.all}}</li>-->
+                {% for category in post.categories.all %}
+                    <!-- el forloop es para poner una coma entre
+                     categorias-->
+                  {{category.name}}{%if not forloop.last %},{% endif %}
+                {% endfor %}
+            </ul>
+    {% endfor %}

@@ -1,36 +1,26 @@
 from django.contrib import admin
-from .models import Category, Post
-
-# Register your models here.
+from .models import Category, File
 
 class CategoryAdmin(admin.ModelAdmin):
     readonly_fields = ('created', 'updated')
 
-class PostAdmin(admin.ModelAdmin):
+class FileAdmin(admin.ModelAdmin):
     readonly_fields = ('created', 'updated')
 
-    #Se agrega para decirle al motor administrador de django
-    # que muestre mas columnas
     list_display = ('title', 'author', 'published', 'post_categories')
-    #Para ordenamientos, si es solo un elemento como TUPLA
-    #TUPLA -> ordering = ('author',)
-    ordering = ('author', 'published')
-    #formulario de busqueda
-    search_fields = ('title', 'content', 'author__username', 'categories__name')
-    # Para una busqueda por años
+    ordering = ('published',)
+    search_fields = ('title', 'author__name', 'categories__name')
     date_hierarchy = 'published'
-    # Campos para filtrado
-    list_filter = ('author__username', 'categories__name',)
+    list_filter = ('categories__name',)
 
     #Todo esto para mandar llamar las categorias dentro del list_display
     def post_categories(self, obj):
-        #return "ALGO"
         return "| ".join( [c.name for c in obj.categories.all().order_by("name")] )
     #Esto le cambia el nombre a post_categories
-    post_categories.short_description = 'Categorias'
+    post_categories.short_description = 'Tratamiento'
 
 # Esto hace que funcione en el panel de administrador
 # Se jala la clase Project del modelo y luego se pasa ProjectAdmin como extendido
 
 admin.site.register(Category, CategoryAdmin)
-admin.site.register(Post, PostAdmin)
+admin.site.register(File, FileAdmin)

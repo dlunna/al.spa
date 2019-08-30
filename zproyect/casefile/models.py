@@ -1,7 +1,8 @@
 from django.db import models
 from django.utils.timezone import now
-#from django.utils import timezone
-from django.contrib.auth.models import User
+#from django.contrib.auth.models import User
+from clients.models import Client
+from ckeditor.fields import RichTextField
 
 # Create your models here.
 
@@ -9,7 +10,6 @@ class Category(models.Model):
     name = models.CharField(max_length=100, verbose_name="Nombre")
     created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")
     updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de modificación")
-
 
     class Meta:
         verbose_name = "categoria"
@@ -19,18 +19,14 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
-class Post(models.Model):
+class File(models.Model):
     title = models.CharField(max_length=200, verbose_name="Título")
-    content = models.TextField(verbose_name="Contenido")
-    #published = models.DateTimeField(verbose_name="Fecha de publicación", default=now())
-    #sin los parentesis o marca error
+    content = RichTextField(verbose_name="Contenido")
     published = models.DateTimeField(verbose_name="Fecha de publicación", default=now)
     image = models.ImageField(verbose_name="Imagen", upload_to="blog", null=True, blank=True)
-    #On delete que pasa si borramos al autor de las entradas, borra en cascada las
-    #entradas del autor.
-    #Lo contrario a cascade PROTECT pero debe tener null=True, blank=True
-    #Cascade va sin parentesis o pide ms cosas
-    author = models.ForeignKey (User, verbose_name="Autor", on_delete=models.CASCADE)
+    #author = models.ForeignKey (User, verbose_name="Autor", on_delete=models.CASCADE)
+    author = models.ForeignKey(Client, verbose_name="Cliente", on_delete=models.CASCADE)
+
     categories = models.ManyToManyField(Category, verbose_name="Categorias", related_name="get_post")
 
     created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")
@@ -38,8 +34,8 @@ class Post(models.Model):
 
 
     class Meta:
-        verbose_name = "entrada"
-        verbose_name_plural = "entradas"
+        verbose_name = "Expediente"
+        verbose_name_plural = "Expedientes"
         ordering = ["-created"]
 
     def __str__(self):

@@ -1,3 +1,8 @@
+# Es para extender el diccionario de contexto
+# Digamos como variables globales
+# se tiene que habilitar en:
+# settings -> templates -> context_processors
+
 from .models import Link
 
 #def ctx_dict(request):

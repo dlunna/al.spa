@@ -5,6 +5,8 @@
 
 {% block content %}
 
+
+
 <!-- the club -->
 <div class="site-section">
   <div class="container">
@@ -27,19 +29,24 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <!-- ejemplo 1 como parrafo -->
+        <!-- ejemplo 0 sencillo -->
+        <!--{{form}}-->
+
+        <!-- ejemplo 1 como parrafo (saltos de linea) -->
         <!--{{ form.as_p }}-->
+
         <!-- ejemplo 2 como lista -->
         <!-- requiere que tenga el ul -->
-        <!--<ul>
+        <!--
+        <ul>
           {{form.as_ul}}
-        </ul>-->
+        </ul>
+        -->
+
+
+
         <!-- ejemplo 3 como tabla -->
         <!-- requiere que tenga el tag table -->
-        <!-- si se le pone GET se puede ver el contenido en la barra -->
-        {% if 'ok' in request.GET %}
-          <p>Su mensaje se ha enviado correctamente, en breve nos pondremos en contacto con usted.</p>
-        {% endif %}
         <!--
         Formulario dinamico autogenerado por DJANGO
         <form action="" method="POST">
@@ -55,6 +62,13 @@
 
 
 
+        <!-- si se le pone GET se puede ver el contenido en la barra -->
+        {% if 'ok' in request.GET %}
+          <p>Su mensaje se ha enviado correctamente, en breve nos pondremos en contacto con usted.</p>
+        {% endif %}
+
+
+            <!-- action="" se deja en blanco para que se auto envie el formilario -->
             <form action="" method="post" class="p-5 bg-white">
               {% csrf_token %}
 
@@ -113,12 +127,10 @@
 
             </form>
 
+            <!-- Para debugear y ver si esta pasando el post -->
+            {{ request.POST }}
 
 
-
-
-        <!-- Para debugear y ver si esta pasando el post -->
-        {{ request.POST }}
       </div>
 
     </div>
