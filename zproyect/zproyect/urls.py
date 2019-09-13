@@ -46,7 +46,8 @@ urlpatterns = [
     path('contacto/', include('contact.urls')),
 
     #path('cuba/', include('cuba.urls')),
-    path('cubas/', include(cubas_patterns)),
+    #path('cubas/', include(cubas_patterns)),
+    path('empleados/', include('employee.urls')),
 
     # Path del administrador
     path('admin/', admin.site.urls),

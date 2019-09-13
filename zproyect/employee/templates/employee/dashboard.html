@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}Páginas{% endblock %}
+
+{% block content %}
+
+{% include 'employee/includes/employee_menu.html' %}
+
+<main role="main">
+  <div class="container mb-4">
+    {% for page in pages %}
+      <div class="row mt-3">
+        <div class="col-md-9 mx-auto">
+
+          <h2>Dashboard</h2>
+
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</main>
+{% endblock %}

@@ -49,9 +49,10 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'ckeditor',
     'contact',
-    'cuba',
     'clients.apps.ClientsConfig',
     'casefile.apps.CasefileConfig',
+    'employee',
+    'cuba',
 ]
 
 MIDDLEWARE = [
