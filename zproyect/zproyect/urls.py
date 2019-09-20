@@ -24,7 +24,7 @@ from core import views as core_views
 # el archivo setting en la memoria
 from django.conf import settings
 
-from cuba.urls import cubas_patterns
+#from cuba.urls import cubas_patterns
 
 urlpatterns = [
     # Importando la APP core

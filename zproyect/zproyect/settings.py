@@ -54,7 +54,6 @@ INSTALLED_APPS = [
     'clients.apps.ClientsConfig',
     'casefile.apps.CasefileConfig',
     'employee',
-    'cuba',
     'box',
 ]
 

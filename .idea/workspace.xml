@@ -3,18 +3,202 @@
   <component name="ChangeListManager">
     <list default="true" id="41a78c05-5a8c-4169-8ab3-ad6d826ef0cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/clients/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/clients/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/clients/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/clients/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/core/templates/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/core/templates/core/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/core/templates/core/root.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/core/templates/core/root.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/employee/templates/employee/client_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/employee/templates/employee/client_create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/employee/templates/employee/client_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/employee/templates/employee/client_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/employee/templates/employee/client_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/employee/templates/employee/client_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/employee/templates/employee/client_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/employee/templates/employee/client_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/promociones/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/promociones/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/promociones/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/promociones/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/promociones/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/promociones/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/promociones/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/promociones/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements-2019-08-29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0002_auto_20190701_1829.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0003_auto_20190701_1905.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0004_auto_20190702_1819.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0005_auto_20190702_1823.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0006_auto_20190702_1854.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0007_auto_20190705_1633.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0008_auto_20190705_1634.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0009_auto_20190705_1700.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0010_auto_20190705_1704.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0011_auto_20190713_1729.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0012_auto_20190713_1745.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0013_auto_20190713_1803.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0014_auto_20190713_1817.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0015_auto_20190713_1820.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0016_auto_20190713_1822.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0017_auto_20190713_1836.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0018_auto_20190713_1852.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0019_auto_20190822_1335.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0020_auto_20190822_1805.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0021_auto_20190822_1806.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/0022_auto_20190822_1809.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/blog/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/box/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/box/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/casefile/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/casefile/migrations/0002_auto_20190827_1323.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/casefile/migrations/0003_auto_20190827_1327.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/casefile/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/clients/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/clients/migrations/0002_auto_20190713_1745.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/clients/migrations/0003_auto_20190713_1748.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/clients/migrations/0004_auto_20190713_1803.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/clients/migrations/0005_auto_20190913_1306.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/clients/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/contact/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/images/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/images/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/images/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/apple_watch/edition/gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/apple_watch/edition/rose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/apple_watch/sport/black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/apple_watch/sport/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/apple_watch/sport/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/apple_watch/sport/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/apple_watch/sport/white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/apple_watch/watch/metal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/apple_watch/watch/steel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/device-mockups.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/device-mockups.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/device-mockups2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/device-mockups2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_s3/s3_land_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_s3/s3_land_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_s3/s3_port_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_s3/s3_port_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_s5/galaxy_s5_land_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_s5/galaxy_s5_land_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_s5/galaxy_s5_land_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_s5/galaxy_s5_port_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_s5/galaxy_s5_port_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_s5/galaxy_s5_port_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_tab4/galaxy_tab4_land_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_tab4/galaxy_tab4_land_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_tab4_small/galaxy_tab4_black_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/galaxy_tab4_small/galaxy_tab4_white_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/imac/imac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad/ipad_land_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad/ipad_land_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad/ipad_port_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad/ipad_port_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_air/ipad_air_gray_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_air/ipad_air_gray_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_air/ipad_air_silver_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_air/ipad_air_silver_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_air_2/ipad_air_2_gold_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_air_2/ipad_air_2_gold_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_air_2/ipad_air_2_gray_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_air_2/ipad_air_2_gray_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_air_2/ipad_air_2_silver_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_air_2/ipad_air_2_silver_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_pro/ipad_pro_land_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_pro/ipad_pro_land_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_pro/ipad_pro_land_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_pro/ipad_pro_port_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_pro/ipad_pro_port_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/ipad_pro/ipad_pro_port_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone5/iphone5_land_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone5/iphone5_land_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone5/iphone5_port_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone5/iphone5_port_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6/iphone_6_land_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6/iphone_6_land_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6/iphone_6_land_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6/iphone_6_port_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6/iphone_6_port_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6/iphone_6_port_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6_plus/iphone_6_plus_black_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6_plus/iphone_6_plus_black_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6_plus/iphone_6_plus_gold_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6_plus/iphone_6_plus_gold_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6_plus/iphone_6_plus_white_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_6_plus/iphone_6_plus_white_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_se/iphone_se_land_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_se/iphone_se_land_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_se/iphone_se_land_rose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_se/iphone_se_land_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_se/iphone_se_port_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_se/iphone_se_port_gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_se/iphone_se_port_rose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/iphone_se/iphone_se_port_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/lumia920/lumia920_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/lumia920/lumia920_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/lumia_930/lumia_930_dark_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/lumia_930/lumia_930_dark_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/lumia_930/lumia_930_light_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/lumia_930/lumia_930_light_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/macbook/macbook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/macbook_2015/gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/macbook_2015/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/macbook_2015/silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/nexus7/nexus7_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/nexus7/nexus7_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/nexus_6/nexus_6_land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/nexus_6/nexus_6_port.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/samsung_tv/samsung_tv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/device-mockups/surface/surface.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/img/app-store-badge.svgX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/img/bg-cta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/img/demo-screen-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/img/google-play-badge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/core/static/core/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/templates/cuba/cuba_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/templates/cuba/cuba_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/templates/cuba/includes/cuba_menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/templatetags/pages_extras.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/cuba/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/employee/migrations/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/zproyect/employee/templates/employee/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/employee/templates/employee/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/employee/templates/employee/includes/employee_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/employee/templates/employee/includes/employee_menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/employee/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/employee/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zproyect/employee/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/employee/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/blog/D7q0CCyX4AA0K2A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/blog/Equipos-para-SPA-Ultrasonido-2-Cabezales.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/clients_files/43559329_10158014786039698_2160980823245848576_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/clients_files/valeria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/51552657_648188685615940_3446568185384402944_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/60337182_874886346179771_2923252606782406656_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/60337182_874886346179771_2923252606782406656_n_82JHy8x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/60337182_874886346179771_2923252606782406656_n_JYIdMm1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/60337182_874886346179771_2923252606782406656_n_MROYSPr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/60337182_874886346179771_2923252606782406656_n_QmtRp0f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/60337182_874886346179771_2923252606782406656_n_W1mMdcl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/60337182_874886346179771_2923252606782406656_n_Zhu4M42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/60337182_874886346179771_2923252606782406656_n_lyFwFCB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/60337182_874886346179771_2923252606782406656_n_v2tQ1Od.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/60337182_874886346179771_2923252606782406656_n_yMiW3QP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/promotion_files/gafe-train-fi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/services/001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/services/001_vVGRMXs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/services/001_vhQujga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/services/002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/services/003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/services/004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/services/005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/media/services/006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/pages/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/pages/migrations/0002_auto_20190702_1819.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/pages/migrations/0003_auto_20190702_1854.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/pages/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/promotion/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/promotion/migrations/0002_auto_20190713_1852.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/promotion/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/registration/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/services/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/services/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/social/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/social/migrations/0002_auto_20190827_1326.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zproyect/social/migrations/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/zproyect/zproyect/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/zproyect/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zproyect/zproyect/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/zproyect/zproyect/urls.py" afterDir="false" />
     </list>
@@ -27,33 +211,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zproyect/employee/templates/employee/dashboard.html">
+        <entry file="file://$PROJECT_DIR$/zproyect/zproyect/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zproyect/employee/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="29">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
-                <element signature="e#26#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zproyect/employee/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1868">
-              <caret line="112" column="43" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#71#0" expanded="true" />
+                <element signature="e#632#664#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,17 +304,17 @@
         <option value="$PROJECT_DIR$/zproyect/registration/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/zproyect/box/urls.py" />
         <option value="$PROJECT_DIR$/zproyect/box/admin.py" />
-        <option value="$PROJECT_DIR$/zproyect/zproyect/urls.py" />
         <option value="$PROJECT_DIR$/zproyect/box/models.py" />
         <option value="$PROJECT_DIR$/zproyect/employee/templates/employee/box_create.html" />
         <option value="$PROJECT_DIR$/zproyect/employee/urls.py" />
         <option value="$PROJECT_DIR$/zproyect/employee/templates/employee/includes/employee_menu.html" />
         <option value="$PROJECT_DIR$/zproyect/employee/forms.py" />
         <option value="$PROJECT_DIR$/zproyect/employee/templates/employee/box_list.html" />
-        <option value="$PROJECT_DIR$/zproyect/zproyect/settings.py" />
         <option value="$PROJECT_DIR$/zproyect/employee/views.py" />
         <option value="$PROJECT_DIR$/zproyect/core/templates/core/root.html" />
         <option value="$PROJECT_DIR$/zproyect/employee/templates/employee/dashboard.html" />
+        <option value="$PROJECT_DIR$/zproyect/zproyect/settings.py" />
+        <option value="$PROJECT_DIR$/zproyect/zproyect/urls.py" />
       </list>
     </option>
   </component>
@@ -211,6 +374,12 @@
               <item name="employee" type="462c0819:PsiDirectoryNode" />
               <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="al.spa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="al.spa" type="462c0819:PsiDirectoryNode" />
+              <item name="zproyect" type="462c0819:PsiDirectoryNode" />
+              <item name="zproyect" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -261,10 +430,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="1280" y="0" width="1440" height="900" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21736062" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21736062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -275,7 +443,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848485" visible="true" weight="0.21625164" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49848485" visible="true" weight="0.819135" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50151515" side_tool="true" weight="0.36777583" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32896462" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -579,16 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/zproyect/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zproyect/employee/templates/employee/box_create.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -616,13 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="67" column="36" lean-forward="true" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/zproyect/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="153" column="29" selection-start-line="153" selection-start-column="29" selection-end-line="153" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -654,6 +805,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/employee/templates/employee/includes/employee_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zproyect/employee/templates/employee/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zproyect/employee/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -674,17 +839,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/employee/templates/employee/includes/employee_menu.html">
+    <entry file="file://$PROJECT_DIR$/zproyect/zproyect/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="186">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zproyect/employee/templates/employee/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/zproyect/zproyect/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="29">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
