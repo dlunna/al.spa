@@ -6,4 +6,10 @@ from .models import Client
 class ClientAdmin(admin.ModelAdmin):
     readonly_fields = ('created', 'updated')
 
+    # Esta clase media es para darle responsive al ckeditor
+    class Media:
+        css = {
+            'all': ('employee/css/custom_ckeditor.css',)
+        }
+
 admin.site.register(Client, ClientAdmin)

@@ -1,7 +1,7 @@
 {% extends 'core/base.html' %}
 {% load static %}
 
-{% block title %}{{page.title}}{% endblock %}
+{% block title %}{{page.name}}{% endblock %}
 
 {% block content %}
 
@@ -13,9 +13,10 @@
       <div class="col-md-9 mx-auto">
         <h2 class="section-heading mb-4">{{page.name}}</h2>
         <div>
-          {{page.phone|safe}}
+          <p>{{page.fatherlastname}}</p>
+          <p>{{page.phone}}</p>
           {% if request.user.is_staff %}
-            | <a href="{% url 'clientesactualizar' page.id %}">Editar</a>
+            <a href="{% url 'clientesactualizar' page.id %}">Editar</a>
             | <a href="{% url 'clientesborrar' page.id %}">Borrar</a>
           {% endif %}
         </div>
@@ -23,4 +24,8 @@
     </div>
   </div>
 </main>
+
+<br>
+<br>
+
 {% endblock %}

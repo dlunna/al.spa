@@ -31,12 +31,14 @@ ALLOWED_HOSTS = ['lovelyspa.tk','lovelyspa.pythonanywhere.com','localhost','127.
 # Application definition
 
 INSTALLED_APPS = [
+    'registration',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
     'core',
     #Originalmente se manda llamar el archivo promociones
     #'promotion',
@@ -53,6 +55,7 @@ INSTALLED_APPS = [
     'casefile.apps.CasefileConfig',
     'employee',
     'cuba',
+    'box',
 ]
 
 MIDDLEWARE = [
@@ -148,6 +151,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+USE_THOUSAND_SEPARATOR = True
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
@@ -175,7 +180,8 @@ CKEDITOR_CONFIGS = {
             ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
             ['Link', 'Unlink'],
             ['RemoveFormat', 'Source']
-        ]
+        ],
+        'width': 'auto',
     }
 }
 
@@ -184,3 +190,8 @@ EMAIL_HOST = 'smtp.mailtrap.io'
 EMAIL_HOST_USER = 'bfa56e53a99138'
 EMAIL_HOST_PASSWORD = 'b5f733131373d1'
 EMAIL_PORT = '2525'
+
+
+# Auth redirects 'redireccion para la app registration'
+LOGIN_REDIRECT_URL = 'empleados'
+LOGOUT_REDIRECT_URL = 'root'

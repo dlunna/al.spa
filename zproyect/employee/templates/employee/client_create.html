@@ -1,7 +1,7 @@
 {% extends 'core/base.html' %}
 {% load static %}
 
-{% block title %}{{page.title}}{% endblock %}
+{% block title %}Agregar cliente {% endblock %}
 
 {% block content %}
 
@@ -11,16 +11,22 @@
   <div class="container">
     <div class="row mt-3">
       <div class="col-md-9 mx-auto">
-        <h2 class="section-heading mb-4">{{page.name}}</h2>
+        <h2 class="section-heading mb-4">Formulario para agregar un nuevo cliente</h2>
         <div>
           <form method="post">
             {% csrf_token %}
             {{ form.as_p }}
-            <input type="submit" value="Guardar">
+            <div class="text-center">
+              <input type="submit" class="btn btn-primary btn-block" value="Guardar">
+            </div>
           </form>
         </div>
       </div>
     </div>
   </div>
 </main>
+
+<br>
+<br>
+
 {% endblock %}

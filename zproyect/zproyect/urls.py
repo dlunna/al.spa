@@ -49,8 +49,14 @@ urlpatterns = [
     #path('cubas/', include(cubas_patterns)),
     path('empleados/', include('employee.urls')),
 
+    #path('caja/', include('box.urls')),
+
     # Path del administrador
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls, name="admin"),
+
+    # Paths de auth
+    path('accounts/', include('django.contrib.auth.urls')),
+
 ]
 
 

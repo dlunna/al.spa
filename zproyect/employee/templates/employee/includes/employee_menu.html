@@ -1,13 +1,17 @@
-{% if request.user.is_staff %}
+{% load static %}
+<script type="text/javascript" src="{% static "ckeditor/ckeditor-init.js" %}"></script>
+<script type="text/javascript" src="{% static "ckeditor/ckeditor/ckeditor.js" %}"></script>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">LovelySpa</a>
+  <a class="navbar-brand" href="{% url 'home' %}">LovelySpa</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
+      {% if request.user.is_staff %}
       <li class="nav-item active">
-        <a class="nav-link" href="/">Inicio<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{% url 'empleados' %}">Inicio</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{% url 'clienteslista' %}">Clientes</a>
@@ -16,9 +20,30 @@
         <a class="nav-link" href="{% url 'clientesnuevo' %}">Nuevo Cliente</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Actualizar Cliente</a>
+        <a class="nav-link" href="{% url 'venta_listado' %}">Listado de Ventas</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'venta_nueva' %}">Venta</a>
+      </li>
+      {% endif %}
+
+
+
+
+      {% if not request.user.is_authenticated %}
+      <li class="nav-item">
+          <a class="nav-link" href="{% url 'login' %}">Acceder</a>
+      </li>
+      {% else %}
+      <li class="nav-item">
+          <a class="nav-link disabled" href="{% url 'admin:index' %}">Admin</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link disabled" href="{% url 'logout' %}">Salir</a>
+      </li>
+      {% endif %}
+
+
     </ul>
   </div>
 </nav>
-{% endif %}

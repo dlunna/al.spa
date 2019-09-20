@@ -1,4 +1,5 @@
 from django.db import models
+from ckeditor.fields import RichTextField
 
 # Create your models here.
 
@@ -12,7 +13,7 @@ class Client(models.Model):
     phone = models.CharField(max_length=20, verbose_name="Telefono", null=True, blank=True)
     work = models.CharField(max_length=40, verbose_name="Trabajo", null=True, blank=True)
     facebook = models.CharField(max_length=40, verbose_name="Facebook", null=True, blank=True)
-    description = models.TextField(verbose_name= "Datos adicionales", null=True, blank=True)
+    description = RichTextField(verbose_name= "Datos adicionales", null=True, blank=True)
     image = models.ImageField(verbose_name="Imagen", upload_to="clients_files", null=True, blank=True)
 
     created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")

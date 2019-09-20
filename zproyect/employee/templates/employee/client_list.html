@@ -1,7 +1,7 @@
 {% extends 'core/base.html' %}
 {% load static %}
 
-{% block title %}Clientes{% endblock %}
+{% block title %}Listado de Clientes{% endblock %}
 
 {% block content %}
 
@@ -14,15 +14,16 @@
         <div class="col-md-9 mx-auto">
           <h2 class="mb-4">{{page.name}}</h2>
           <div>
-            <p>{{page.name}}</p>
+            <p>{{page.fatherlastname}}</p>
             <p>{{page.phone}}</p>
+
             <p>{#page.content|striptags|safe|truncatechars:"200"#}</p>
 
             <p><a href="{% url 'clientesdetalles' page.id page.name|slugify %}">Leer más</a>
 
               {% if request.user.is_staff %}
                 | <a href="{% url 'clientesactualizar' page.id %}">Editar</a>
-                | <a href="#">Borrar</a>
+                | <a href="{% url 'clientesborrar' page.id %}">Borrar</a>
               {% endif %}
 
             </p>
