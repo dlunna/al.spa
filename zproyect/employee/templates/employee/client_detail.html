@@ -13,8 +13,8 @@
       <div class="col-md-9 mx-auto">
         <h2 class="section-heading mb-4">{{page.name}}</h2>
         <div>
-          <p>{{page.fatherlastname}}</p>
-          <p>{{page.phone}}</p>
+          <p>Apeido: {{page.fatherlastname}}</p>
+          <p>Número celular: {{page.celphone}}</p>
           {% if request.user.is_staff %}
             <a href="{% url 'clientesactualizar' page.id %}">Editar</a>
             | <a href="{% url 'clientesborrar' page.id %}">Borrar</a>

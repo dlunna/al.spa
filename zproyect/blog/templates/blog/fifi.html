@@ -21,7 +21,7 @@
         <div class="border p-4 text-with-icon">
           {% if post.image %}<img src="{{post.image.url}}" class="img-fluid" alt="Responsive image"/>{% endif %}
           <h2 class="h5">{{post.title}}</h2>
-          <p>{{post.content}}</p>
+          <p>{{post.content|safe}}</p>
           <p><em>Fecha de publicación: </em>{{post.published|date:"SHORT_DATE_FORMAT"}}</p>
             <p><em>Autor:</em> {{post.author}}</p>
             <p><em>Categoría:</em>
@@ -46,13 +46,4 @@
 {% endblock %}
 
 {% block legales %}
-<p align="center">
-      <small> Icons made by
-        [https://www.flaticon.com/authors/pixelmeetup],
-        [https://www.freepik.com/],
-        [https://www.flaticon.com/authors/good-ware],
-        [https://roundicons.com/],
-        [https://www.flaticon.com/authors/pixel-perfect]
-        from www.flaticon.com</small>
-</p>
 {% endblock %}

@@ -7,7 +7,7 @@ from clients.models import Client
 # Create your models here.
 
 class Venta(models.Model):
-    key = models.SlugField(verbose_name="Nombre clave", max_length=100, unique=True, default='Venta')
+    #key = models.SlugField(verbose_name="Nombre clave", max_length=100, unique=True, default='Venta')
     content = models.TextField(verbose_name="Descripción de la venta")
     cost = models.FloatField(verbose_name="Costo", default=0)
     #kost = MoneyField(
@@ -19,7 +19,6 @@ class Venta(models.Model):
     salesmen = models.ForeignKey (User, verbose_name="vendedor", on_delete=models.CASCADE)
     client = models.ForeignKey(Client, verbose_name="cliente", on_delete=models.CASCADE)
 
-
     created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")
     updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de modificación")
 
@@ -30,4 +29,4 @@ class Venta(models.Model):
         ordering = ["-created"]
 
     def __str__(self):
-        return self.key
+        return self.content

@@ -4,11 +4,12 @@ from .models import Venta
 class VentaAdmin(admin.ModelAdmin):
     readonly_fields = ('created', 'updated')
 
-    #list_display = ('title', 'author', 'published', 'post_categories')
-    #ordering = ('published',)
-    #search_fields = ('title', 'author__name', 'categories__name')
+    list_display = ('content', 'cost', 'client', 'salesmen', 'salesdate')
+    #ordering = ('cost',)
+    #search_fields = ('client', 'salesmen')
     #date_hierarchy = 'published'
-    #list_filter = ('categories__name',)
+    list_filter = ('client__name',)
+    #list_filter = ('author__username', 'categories__name',)
 
     #Todo esto para mandar llamar las categorias dentro del list_display
     #def post_categories(self, obj):

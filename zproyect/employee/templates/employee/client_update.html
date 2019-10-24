@@ -7,6 +7,11 @@
 
 {% include 'employee/includes/employee_menu.html' %}
 
+
+
+
+{%if perms.user.update_client %}
+
 <main role="main">
   <div class="container">
     <div class="row mt-3">
@@ -29,4 +34,39 @@
     </div>
   </div>
 </main>
+
+
+{% else %}
+<p>No tienes permisos</p>
+{% endif %}
+
+<br>
+<br>
+
+
+
 {% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

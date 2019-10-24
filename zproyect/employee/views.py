@@ -107,7 +107,7 @@ class VentaListView(ListView):
 @method_decorator(staff_member_required, name='dispatch')
 class VentaCreateView(CreateView):
     model = Venta
-    fields = ['key', 'content', 'cost', 'salesmen','client']
+    fields = ['content', 'cost', 'salesmen','client']
     template_name = 'employee/box_create.html'
     context_object_name = 'page'
     success_url = reverse_lazy('empleados')

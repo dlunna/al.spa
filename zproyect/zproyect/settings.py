@@ -52,9 +52,9 @@ INSTALLED_APPS = [
     'ckeditor',
     'contact',
     'clients.apps.ClientsConfig',
-    'casefile.apps.CasefileConfig',
+    #'casefile.apps.CasefileConfig',
     'employee',
-    'box',
+    'box.apps.BoxConfig',
 ]
 
 MIDDLEWARE = [
@@ -95,9 +95,9 @@ WSGI_APPLICATION = 'zproyect.wsgi.application'
 #Configuración en modo prueba
 DATABASES = {
     'default': {
-        'NAME': 'al.spa',
+        'NAME': 'alspa2',
         'ENGINE': 'mysql.connector.django',
-        'USER': 'alspa',
+        'USER': 'alspa2',
         'PASSWORD': '$ba51P15cu5',
         'OPTIONS': {
           'autocommit': True,
@@ -146,7 +146,7 @@ TIME_ZONE = 'America/Mexico_City'
 
 USE_I18N = True
 
-USE_L10N = True
+USE_L10N = False
 
 USE_TZ = True
 

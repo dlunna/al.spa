@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from promotion import views as promotion_views
+from promotion import views as packages_views
 from core import views as core_views
 #from services import views as services_views
 
@@ -36,7 +36,7 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
 
     #usamos la variable name para los tag URL en html
-    path('promociones/', promotion_views.promotion, name="promotion"),
+    path('paquetes/', packages_views.promotion, name="packages"),
 
     path('servicios/', include('services.urls')),
     #path('servicios/', services_views.services, name="service"),
@@ -69,3 +69,7 @@ if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
+
+admin.site.site_header = "Lovely SPA Admin"
+admin.site.site_title = "Admin Panel"
+admin.site.index_title = "lovelyspa.tk"

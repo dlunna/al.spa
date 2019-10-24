@@ -1,9 +1,11 @@
 {% load static %}
-<script type="text/javascript" src="{% static "ckeditor/ckeditor-init.js" %}"></script>
-<script type="text/javascript" src="{% static "ckeditor/ckeditor/ckeditor.js" %}"></script>
+<script type="text/javascript" src="{% static "ckeditor/ckeditor-init.js" %}"> </script>
+<script type="text/javascript" src="{% static "ckeditor/ckeditor/ckeditor.js" %}"> </script>
 
+<!--
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="{% url 'home' %}">LovelySpa</a>
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,9 +29,6 @@
       </li>
       {% endif %}
 
-
-
-
       {% if not request.user.is_authenticated %}
       <li class="nav-item">
           <a class="nav-link" href="{% url 'login' %}">Acceder</a>
@@ -42,6 +41,81 @@
           <a class="nav-link disabled" href="{% url 'logout' %}">Salir</a>
       </li>
       {% endif %}
+
+    </ul>
+  </div>
+</nav>
+-->
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="{% url 'home' %}">LovelySpa</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'empleados' %}">Dashboard</a>
+      </li>
+
+      {% if request.user.is_staff %}
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Clientes
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="{% url 'clientesnuevo' %}">Añadir cliente</a>
+          <a class="dropdown-item" href="{% url 'clienteslista' %}">Lista de clientes</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Caja
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="{% url 'venta_nueva' %}">Nueva Venta</a>
+          <a class="dropdown-item" href="{% url 'venta_listado' %}">Listado de ventas</a>
+
+        </div>
+      </li>
+
+      {% endif %}
+
+
+
+      {% if not request.user.is_authenticated %}
+
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="{% url 'login' %}">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Acceder</button>
+        </a>
+      </li>
+      {% else %}
+      <li class="nav-item">
+        <a class="nav-item nav-link disabled" href="{% url 'admin:index' %}">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Admin</button>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="{% url 'logout' %}">
+          <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Salir</button>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">
+          <button class="btn btn-dark my-2 my-sm-0" type="submit">{{user}}</button>
+        </a>
+      </li>
+
+      {% endif %}
+
 
 
     </ul>

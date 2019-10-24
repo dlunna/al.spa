@@ -24,9 +24,9 @@ class Project(models.Model):
 
     class Meta:
         #Nombre para singular de la clase
-        verbose_name = "promocion"
+        verbose_name = "paquete"
         #Nombre para plural de la clase
-        verbose_name_plural = "promociones"
+        verbose_name_plural = "paquetes"
         # Ordena los proyectos desde el ultimo creado
         ordering = ["-created"]
 
